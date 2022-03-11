@@ -16,7 +16,7 @@ header{
 }
 
 .content-jumbotron{
-  width: 1300px;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -24,20 +24,32 @@ header{
 /* 
   MAIN 
 */
-section .col.col-center{
-  margin: 0 21px; 
+main section .col{
+  margin-bottom: 20px;
+}
+
+main section .col.col-center{
+  margin: 0 20px; 
+}
+
+main section .container-col-float-margin .col.float-left{
+  width: calc((100% - 40px) / 3);
 }
 
 main section .container-col-float .col.float-left{
-  width: calc(100% / 3 - 14px);
+  width: calc(100% / 3);
 }
-
 
 
 
 /* 
   FOOTER 
 */
+footer .container-col-float{
+  width: 85%;
+  margin: 0 auto;
+}
+
 footer .container-col-float .col.float-left{
   width: calc(100% / 5);
 }
