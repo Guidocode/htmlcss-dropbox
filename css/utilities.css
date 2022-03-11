@@ -14,6 +14,10 @@
   float: left;
 }
 
+.float-right{
+  float: right;
+}
+
 .text-center{
   text-align: center;
 }
@@ -30,9 +34,8 @@
 }
 
 .btn{
-  display: inline-block;
   background-color: #0161FF;
-  padding: 7px 15px;
+  padding: 5px 15px;
   line-height: 20px;
   font-size: 14px;
   color: white;
@@ -50,7 +53,7 @@
 }
 
 .btn:hover{
-  filter: opacity(.4);
+  filter: opacity(.9);
 }
 
 
