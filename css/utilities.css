@@ -35,10 +35,11 @@
 
 .btn{
   background-color: #0161FF;
-  padding: 5px 15px;
+  padding: 7px 15px;
   line-height: 20px;
   font-size: 14px;
   color: white;
+  transition: all .5s;
 }
 
 .btn-border{
@@ -54,6 +55,7 @@
 
 .btn:hover{
   filter: opacity(.9);
+  box-shadow: 0 2px 3px black
 }
 
 

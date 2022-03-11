@@ -38,14 +38,48 @@ header nav li:hover{
   JUMBOTRON 
 */
 .jumbotron{
+  height: 610px;
   padding: 50px 0;
   margin-top: 70px;
+  background-color: #B4D0E7;
 }
 
 .content-jumbotron{
-  width: 85%;
+  width: 80%;
+  /* max-width: 1000px; */
   margin: 0 auto;
 }
+
+.jumbotron h1{
+  font-size: 4.3rem;
+  padding: 40px 0;
+}
+
+.jumbotron .text{
+  padding-right: 70px;
+}
+
+.jumbotron .text p{
+  margin-bottom: 30px;
+}
+
+.jumbotron .text span{
+  display: inline-block;
+  font-size: 13px;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+.jumbotron .text i{
+  font-size: 35px;
+  color: black;
+}
+
+.jumbotron .image img{
+  width: 100%;
+  margin-bottom: 50px;
+}
+
 
 
 
