@@ -1,0 +1,47 @@
+/* 
+  HEADER 
+*/
+header{
+  height: 70px;
+  line-height: 70px;
+  padding: 0 20px;
+}
+
+
+/* 
+  JUMBOTRON 
+*/
+.jumbotron{
+  padding: 50px 0;
+}
+
+.content-jumbotron{
+  width: 1300px;
+  margin: 0 auto;
+}
+
+
+/* 
+  MAIN 
+*/
+section .col.col-center{
+  margin: 0 21px; 
+}
+
+main section .container-col-float .col.float-left{
+  width: calc(100% / 3 - 14px);
+}
+
+
+
+
+/* 
+  FOOTER 
+*/
+footer .container-col-float .col.float-left{
+  width: calc(100% / 5);
+}
+
+footer .container-col-float{
+  padding: 40px 50px;
+}
