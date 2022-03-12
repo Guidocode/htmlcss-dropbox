@@ -94,6 +94,11 @@ main section .col{
   margin-bottom: 40px;
 }
 
+main section .col.col-center{
+  margin: 0 50px; 
+}
+
+
 /* SEZIONE 1  */
 main section .container-false-checkbox{
   padding: 30px 0;
@@ -120,17 +125,13 @@ main section .container-false-checkbox span{
 }
 
 
-main section .col.col-center{
-  margin: 0 50px; 
-}
-
-main section .container-col-float-margin .col.float-left{
+main section .container-col-float-margin-border .col.float-left{
   width: calc((100% - 100px) / 3);
   height: 950px;
 }
 
 
-main section .container-col-float-margin .col, .col.col-full{
+main section .container-col-float-margin-border .col, .col.col-full{
   border: 1px solid #D8D8DA;
 }
 
@@ -199,10 +200,28 @@ main section .container-col-float .text p{
   padding: 30px 0;
   line-height: 25px;
 }
-
 /* /SEZIONE 2  */
 
 
+/* SEZIONE 3  */
+main section .container-col-float-margin .col.float-left{
+  width: calc((100% - 100px) / 3);
+}
+
+main section .container-col-float-margin .col.float-left .image img{
+  width: 100%;
+}
+
+main section .container-col-float-margin .col.float-left .text p{
+  padding: 20px 0;
+  line-height: 20px;
+}
+
+main section .col a.scopri{
+  text-decoration: underline;
+  font-size: 14px;
+}
+/* /SEZIONE 3 */
 
 
 /* 

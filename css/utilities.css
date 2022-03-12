@@ -39,7 +39,7 @@
   line-height: 20px;
   font-size: 14px;
   color: white;
-  transition: all .5s;
+  transition: all .3s;
 }
 
 .btn-border{
@@ -58,7 +58,9 @@
   box-shadow: 0 2px 3px black
 }
 
-
+.underline{
+  text-decoration: underline;
+}
 
 
 /* DEBUG */
