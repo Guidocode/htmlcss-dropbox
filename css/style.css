@@ -86,21 +86,108 @@ header nav li:hover{
 /* 
   MAIN 
 */
-main section .col{
-  margin-bottom: 20px;
-}
-
-main section .col.col-center{
-  margin: 0 20px; 
-}
-
-main section .container-col-float-margin .col.float-left{
-  width: calc((100% - 40px) / 3);
-}
-
 main section .container-col-float .col.float-left{
   width: calc(100% / 3);
 }
+
+main section .col{
+  margin-bottom: 40px;
+}
+
+/* SEZIONE 1  */
+main section .container-false-checkbox{
+  padding: 30px 0;
+}
+
+main section .false-checkbox{
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+main section .false-checkbox.check{
+  border: 4px solid #0161FF;
+}
+
+main section .false-checkbox.not-check{
+  border: 1px solid #D8D8DA;
+}
+
+main section .container-false-checkbox span{
+  margin-right: 20px;
+}
+
+
+main section .col.col-center{
+  margin: 0 50px; 
+}
+
+main section .container-col-float-margin .col.float-left{
+  width: calc((100% - 100px) / 3);
+  height: 1000px;
+}
+
+
+main section .container-col-float-margin .col, .col.col-full{
+  border: 1px solid #D8D8DA;
+}
+
+main section .text-center{
+  height: 40px;
+  border-bottom: 1px solid #D8D8DA;
+}
+
+main section .text-center span{
+  line-height: 40px;
+  font-size: 14px;
+}
+
+main section .content-col-float-margin{
+  padding: 20px;
+}
+
+main section .content-col-float-margin ul li{
+  font-size: 13px;
+}
+
+main section .content-col-float-margin ul li.price{
+  font-weight: bold;
+  padding-bottom: 5px;
+  font-size: 15px;
+}
+
+main section .content-col-float-margin ul li.time{
+  color: #586D7E;
+  padding-top: 5px;
+}
+
+main section .content-col-float-margin ul li:last-child a{
+  text-decoration: underline #D8D8DA;
+}
+
+main section .content-col-float-margin ul li:last-child span{
+  padding-bottom: 30px;
+  border-bottom: 1px solid #D8D8DA;
+}
+
+main section .content-col-float-margin ul.check-color i{
+  color: #0161FF;
+}
+
+main section .col-full .content-col-float-margin span{
+  font-size: 13px;
+}
+
+main section .col-full .content-col-float-right a.btn{
+  padding: 7px 70px;
+}
+
+
+/* /SEZIONE 1  */
+
+
 
 
 
