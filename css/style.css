@@ -86,7 +86,7 @@ header nav li:hover{
 /* 
   MAIN 
 */
-main section .col{
+main section .col.h500{
   margin-bottom: 40px;
 }
 
@@ -221,6 +221,10 @@ main section .col a.scopri{
 
 
 /* SEZIONE 4  */
+section.full-width{
+  padding: 0;
+}
+
 main section .container-col-float .col.float-left .box-sponsor{
   width: 50%;
   height: 212.45px;
@@ -242,7 +246,7 @@ main section .container-col-float .col.float-left .box-sponsor .sponsor img{
 
 /* box sponsor  */
 main section .container-col-float .col.float-left .box-sponsor.active{
-  /* bordo7padding con opacity da aggiungere */
+  /* bordo/padding con opacity da aggiungere */
 }
 
 main section .container-col-float .col.float-left .box-sponsor.designit{
@@ -304,6 +308,34 @@ main section .col.col-center-sponsor span{
 }
 /* /SEZIONE 4  */
 
+
+/* SEZIONE 5  */
+main section.full-width.bg-color{
+  background-color: #B4D0E7;
+  padding: 0;
+}
+
+main section.full-width.bg-color .col{
+  padding-top: 100px;
+}
+
+main section.full-width.bg-color .col h2{
+  padding: 0;
+  color: #62092B;
+}
+
+main section.full-width.bg-color .col.w40{
+  padding-left: 100px;
+}
+
+main section.full-width.bg-color .col .btn.btn-no-border{
+  text-align: right;
+}
+
+main section.full-width.bg-color .col .btn-no-border{
+  padding: 8px 60px;
+}
+/* /SEZIONE 5  */
 
 
 
