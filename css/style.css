@@ -358,15 +358,49 @@ main section .content-last-section p{
 /* 
   FOOTER 
 */
+footer{
+  background-color: black;
+}
+
 footer .container-col-float{
   width: 85%;
   margin: 0 auto;
+  padding: 40px 50px;
 }
 
 footer .container-col-float .col.float-left{
   width: calc(100% / 5);
 }
 
-footer .container-col-float{
+footer .container-col-float .col.float-left h3{
+  color: white;
+  padding-bottom: 20px;
+}
+
+footer .container-col-float .col.float-left ul li a{
+  color: white;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+footer .language{
+  width: 85%;
+  margin: 0 auto;
   padding: 40px 50px;
+}
+
+footer .language .false-hr{
+  width: 100px;
+  border-bottom: 1px solid #D2D1D5;
+  margin-bottom: 40px;
+}
+
+footer .language i{
+  color: #99989A;
+  font-size: 13px;
+}
+
+footer .language span{
+  color: #99989A;
+  font-size: 13px;
 }
