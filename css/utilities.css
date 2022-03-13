@@ -29,6 +29,10 @@
 .w40{
   width: 40%;
 }
+.w30{
+  width: 30%;
+}
+
 .logo img{
   vertical-align: middle;
 }
@@ -60,6 +64,12 @@
 
 .underline{
   text-decoration: underline;
+}
+
+.small-false-hr{
+  border-bottom: 1px solid #D2D1D5;
+  width: 45px;
+  padding-top: 30px;
 }
 
 

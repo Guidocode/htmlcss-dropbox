@@ -86,10 +86,6 @@ header nav li:hover{
 /* 
   MAIN 
 */
-main section .container-col-float .col.float-left{
-  width: calc(100% / 3);
-}
-
 main section .col{
   margin-bottom: 40px;
 }
@@ -168,10 +164,10 @@ main section .content-col-float-margin ul li:last-child a{
   text-decoration: underline #D8D8DA;
 }
 
-main section .content-col-float-margin ul li:last-child span{
+/* main section .content-col-float-margin ul li:last-child span{
   padding-bottom: 30px;
   border-bottom: 1px solid #D8D8DA;
-}
+} */
 
 main section .content-col-float-margin ul.check-color i{
   color: #0161FF;
@@ -222,6 +218,94 @@ main section .col a.scopri{
   font-size: 14px;
 }
 /* /SEZIONE 3 */
+
+
+/* SEZIONE 4  */
+main section .container-col-float .col.float-left .box-sponsor{
+  width: 50%;
+  height: 212.45px;
+  position: relative;
+}
+
+main section .container-col-float .col.float-left .box-sponsor .sponsor{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120px;
+}
+
+main section .container-col-float .col.float-left .box-sponsor .sponsor img{
+  width: 100%;
+  /* color: white; */
+}
+
+/* box sponsor  */
+main section .container-col-float .col.float-left .box-sponsor.active{
+  /* bordo7padding con opacity da aggiungere */
+}
+
+main section .container-col-float .col.float-left .box-sponsor.designit{
+  background-color: #A2D39B;
+}
+
+main section .container-col-float .col.float-left .box-sponsor.arizona_state_university{
+  background-color: #62092B;
+}
+
+main section .container-col-float .col.float-left .box-sponsor.university_of_florida{
+  background-color: #0093CE;
+}
+
+main section .container-col-float .col.float-left .box-sponsor.topps{
+  background-color: #FF1D1C;
+}
+
+
+main section .container-col-float .col.float-left .box-sponsor.world_bicycle_relief{
+  background-color: #D50020;
+}
+
+main section .container-col-float .col.float-left .box-sponsor.hearst_corp{
+  background-color: #B4D0E7;
+}
+
+main section .container-col-float .col.float-left .box-sponsor.lonely_planet{
+  background-color: #0D2481;
+}
+
+main section .container-col-float .col.float-left .box-sponsor.clear_channel{
+  background-color: #FFD830;
+}
+/* /box sponsor  */
+
+main section .col.col-center-sponsor{
+  padding: 50px; 
+  background-color: #F5F5F5;
+  height: 425px;
+}
+
+main section .col.col-center-sponsor .sponsor{
+  width: 120px;
+}
+
+main section .col.col-center-sponsor .sponsor img{
+  width: 100%;
+}
+
+
+main section .col.col-center-sponsor p{
+  padding: 30px 0;
+  line-height: 20px;
+}
+
+main section .col.col-center-sponsor span{
+  font-size: 15px;
+}
+/* /SEZIONE 4  */
+
+
+
 
 
 /* 
