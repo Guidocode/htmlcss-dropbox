@@ -338,6 +338,21 @@ main section.full-width.bg-color .col .btn-no-border{
 /* /SEZIONE 5  */
 
 
+/* SEZIONE 6  */
+main section .content-last-section h3{
+  font-size: 2rem;
+  padding: 30px 0;
+}
+
+main section .content-last-section .question-row{
+  border-bottom: 1px solid #D2D1D5;
+}
+
+main section .content-last-section p{
+  padding: 30px 0;
+  font-weight: bold;
+}
+/* /SEZIONE 6  */
 
 
 /* 

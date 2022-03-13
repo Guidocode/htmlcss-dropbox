@@ -72,6 +72,11 @@
   padding-top: 30px;
 }
 
+.full-false-hr{
+  border-bottom: 1px solid #D2D1D5;
+  padding-top: 30px;
+}
+
 
 /* DEBUG */
 .debug{
