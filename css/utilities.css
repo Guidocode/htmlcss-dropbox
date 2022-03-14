@@ -29,15 +29,14 @@
 .w40{
   width: 40%;
 }
-.w30{
-  width: 30%;
-}
+
 
 .logo img{
   vertical-align: middle;
 }
 
 .btn{
+  display: inline-block;
   background-color: #0161FF;
   padding: 8px 15px;
   line-height: 20px;

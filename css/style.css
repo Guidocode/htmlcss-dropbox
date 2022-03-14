@@ -34,20 +34,24 @@ header nav li:hover{
 
 
 
+
+
 /* 
   JUMBOTRON 
 */
 .jumbotron{
-  height: 610px;
-  padding: 50px 0;
-  margin-top: 70px;
+  /* height: 610px; */
+  /* padding: 50px 0; */
+  /* margin-top: 70px; */
   background-color: #B4D0E7;
 }
 
 .content-jumbotron{
-  width: 80%;
-  /* max-width: 1000px; */
+  width: 90%;
+  max-width: 1300px;
   margin: 0 auto;
+  position: relative;
+  bottom: -70px;
 }
 
 .jumbotron h1{
@@ -56,7 +60,7 @@ header nav li:hover{
 }
 
 .jumbotron .text{
-  padding-right: 70px;
+  padding-right: 150px;
 }
 
 .jumbotron .text p{
@@ -66,8 +70,7 @@ header nav li:hover{
 .jumbotron .text span{
   display: inline-block;
   font-size: 13px;
-  margin-top: 15px;
-  margin-bottom: 35px;
+  padding: 15px 0 35px;
 }
 
 .jumbotron .text i{
@@ -77,8 +80,9 @@ header nav li:hover{
 
 .jumbotron .image img{
   width: 100%;
-  margin-bottom: 50px;
 }
+
+
 
 
 
@@ -86,21 +90,19 @@ header nav li:hover{
 /* 
   MAIN 
 */
-main section .col.h500{
-  margin-bottom: 40px;
-}
-
 main section .col.col-center{
   margin: 0 50px; 
 }
 
 
-/* SEZIONE 1  */
-main section .container-false-checkbox{
+/* PIANI  */
+
+/* False checkbox  */
+#piani .container-false-checkbox{
   padding: 30px 0;
 }
 
-main section .false-checkbox{
+#piani .false-checkbox{
   width: 18px;
   height: 18px;
   border-radius: 50%;
@@ -108,130 +110,140 @@ main section .false-checkbox{
   cursor: pointer;
 }
 
-main section .false-checkbox.check{
+#piani .false-checkbox.check{
   border: 4px solid #0161FF;
 }
 
-main section .false-checkbox.not-check{
+#piani .false-checkbox.not-check{
   border: 1px solid #D8D8DA;
 }
 
-main section .container-false-checkbox span{
+#piani .container-false-checkbox span{
   margin-right: 20px;
 }
+/* /False checkbox  */
 
 
-main section .container-col-float-margin-border .col.float-left{
+/* Colonne piani  */
+#piani .col{
+  border: 1px solid #D8D8DA;
+  margin-bottom: 40px;
+}
+
+#piani .col.float-left{
   width: calc((100% - 100px) / 3);
   height: 950px;
+  min-height: 500px;
 }
 
-
-main section .container-col-float-margin-border .col, .col.col-full{
-  border: 1px solid #D8D8DA;
-}
-
-main section .text-center{
+#piani .text-center{
   height: 40px;
   border-bottom: 1px solid #D8D8DA;
 }
 
-main section .text-center span{
+#piani .text-center span{
   line-height: 40px;
   font-size: 14px;
 }
 
-main section .content-col-float-margin{
+#piani .content-col{
   padding: 20px;
 }
 
-main section .content-col-float-margin ul li{
+#piani .content-col ul li{
   font-size: 13px;
 }
 
-main section .content-col-float-margin ul li.price{
+#piani .content-col ul li.price{
   font-weight: bold;
   padding-bottom: 5px;
   font-size: 15px;
 }
 
-main section .content-col-float-margin ul li.time{
+#piani .content-col ul li.time{
   color: #586D7E;
   padding-top: 5px;
 }
 
-main section .content-col-float-margin ul li:last-child a{
+#piani .content-col ul li:last-child a{
   text-decoration: underline #D8D8DA;
 }
 
-/* main section .content-col-float-margin ul li:last-child span{
-  padding-bottom: 30px;
-  border-bottom: 1px solid #D8D8DA;
-} */
-
-main section .content-col-float-margin ul.check-color i{
+#piani .content-col ul.check-color i{
   color: #0161FF;
 }
 
-main section .col-full .content-col-float-margin span{
+#piani .content-col span{
   font-size: 13px;
 }
 
-main section .col-full .content-col-float-right a.btn{
+#piani .content-col-right a.btn{
   padding: 7px 70px;
 }
-/* /SEZIONE 1  */
+/* /Colonne piani  */
+/* /PIANI  */
 
 
-/* SEZIONE 2  */
-main section .container-col-float .image img{
+
+/* PARTNER  */
+#partner .image img{
   width: 90%;
 }
 
-main section .container-col-float .text h3{
+#partner .text h3{
   padding-top: 40px;
 }
 
-main section .container-col-float .text p{
+#partner .text p{
   padding: 30px 0;
   line-height: 25px;
 }
-/* /SEZIONE 2  */
+/* /PARTNER  */
 
 
-/* SEZIONE 3  */
-main section .container-col-float-margin .col.float-left{
+
+/* BUSINESS  */
+#business .col.float-left{
   width: calc((100% - 100px) / 3);
 }
 
-main section .container-col-float-margin .col.float-left .image img{
+#business .image img{
   width: 100%;
 }
 
-main section .container-col-float-margin .col.float-left .text p{
+#business .text p{
   padding: 20px 0;
   line-height: 20px;
 }
-
-main section .col a.scopri{
-  text-decoration: underline;
-  font-size: 14px;
-}
-/* /SEZIONE 3 */
+/* /BUSINESS */
 
 
-/* SEZIONE 4  */
-section.full-width{
+
+/* SPONSOR  */
+main #sponsor{
   padding: 0;
 }
 
-main section .container-col-float .col.float-left .box-sponsor{
-  width: 50%;
-  height: 212.45px;
+#sponsor a.scopri{
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+#sponsor .container{
+  padding-bottom: 40px;
+}
+
+#sponsor .col.float-left{
+  width: 30vw;
+}
+
+#sponsor .box-sponsor{
+  width: 15vw;
+  height: 15vw;
   position: relative;
 }
 
-main section .container-col-float .col.float-left .box-sponsor .sponsor{
+#sponsor .box-sponsor .sponsor{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -239,120 +251,123 @@ main section .container-col-float .col.float-left .box-sponsor .sponsor{
   width: 120px;
 }
 
-main section .container-col-float .col.float-left .box-sponsor .sponsor img{
+#sponsor .box-sponsor .sponsor img{
   width: 100%;
+  filter: invert(1);
   /* color: white; */
 }
 
-/* box sponsor  */
-main section .container-col-float .col.float-left .box-sponsor.active{
-  /* bordo/padding con opacity da aggiungere */
+
+/* bg-color box sponsor  */
+#sponsor .box-sponsor.active{
+  border: 8px solid rgba(255, 255, 255, .5);
 }
 
-main section .container-col-float .col.float-left .box-sponsor.designit{
+#sponsor .box-sponsor.designit{
   background-color: #A2D39B;
 }
 
-main section .container-col-float .col.float-left .box-sponsor.arizona_state_university{
+#sponsor .box-sponsor.arizona_state_university{
   background-color: #62092B;
 }
 
-main section .container-col-float .col.float-left .box-sponsor.university_of_florida{
+#sponsor .box-sponsor.university_of_florida{
   background-color: #0093CE;
 }
 
-main section .container-col-float .col.float-left .box-sponsor.topps{
+#sponsor .box-sponsor.topps{
   background-color: #FF1D1C;
 }
 
 
-main section .container-col-float .col.float-left .box-sponsor.world_bicycle_relief{
+#sponsor .box-sponsor.world_bicycle_relief{
   background-color: #D50020;
 }
 
-main section .container-col-float .col.float-left .box-sponsor.hearst_corp{
+#sponsor .box-sponsor.hearst_corp{
   background-color: #B4D0E7;
 }
 
-main section .container-col-float .col.float-left .box-sponsor.lonely_planet{
+#sponsor .box-sponsor.lonely_planet{
   background-color: #0D2481;
 }
 
-main section .container-col-float .col.float-left .box-sponsor.clear_channel{
+#sponsor .box-sponsor.clear_channel{
   background-color: #FFD830;
 }
-/* /box sponsor  */
+/* /bg-color box sponsor  */
 
-main section .col.col-center-sponsor{
-  padding: 50px; 
-  background-color: #F5F5F5;
-  height: 425px;
+#sponsor .col.col-center-sponsor{
+  width: calc(100% - 30vw - 30vw);
 }
 
-main section .col.col-center-sponsor .sponsor{
+#sponsor .col.col-center-sponsor{
+  padding: 50px; 
+  background-color: #F5F5F5;
+  height: 30vw;
+  overflow: auto;
+}
+
+#sponsor .col-center-sponsor .sponsor{
   width: 120px;
 }
 
-main section .col.col-center-sponsor .sponsor img{
+#sponsor .col-center-sponsor .sponsor img{
   width: 100%;
 }
 
 
-main section .col.col-center-sponsor p{
+#sponsor .col-center-sponsor p{
   padding: 30px 0;
   line-height: 20px;
 }
 
-main section .col.col-center-sponsor span{
+#sponsor .col-center-sponsor span{
   font-size: 15px;
 }
-/* /SEZIONE 4  */
+/* /SPONSOR  */
 
 
-/* SEZIONE 5  */
-main section.full-width.bg-color{
+
+/* AZIENDA  */
+#azienda{
   background-color: #B4D0E7;
   padding: 0;
-}
-
-main section.full-width.bg-color .col{
   padding-top: 100px;
+  height: 280px;
 }
 
-main section.full-width.bg-color .col h2{
+#azienda .col h2{
   padding: 0;
   color: #62092B;
 }
 
-main section.full-width.bg-color .col.w40{
-  padding-left: 100px;
-}
-
-main section.full-width.bg-color .col .btn.btn-no-border{
-  text-align: right;
-}
-
-main section.full-width.bg-color .col .btn-no-border{
+#azienda .col .btn-no-border{
   padding: 8px 60px;
 }
-/* /SEZIONE 5  */
+/* /AZIENDA */
 
 
-/* SEZIONE 6  */
-main section .content-last-section h3{
+
+/* FAQ  */
+#faq h3{
   font-size: 2rem;
   padding: 30px 0;
 }
 
-main section .content-last-section .question-row{
+#faq .question-row{
   border-bottom: 1px solid #D2D1D5;
+  padding: 30px 30px 30px 0;
 }
 
-main section .content-last-section p{
-  padding: 30px 0;
+#faq p{
   font-weight: bold;
 }
-/* /SEZIONE 6  */
+/* /FAQ */
+
+
+
+
 
 
 /* 
@@ -362,45 +377,37 @@ footer{
   background-color: black;
 }
 
-footer .container-col-float{
-  width: 85%;
+.content-footer{
+  width: 90%;
   margin: 0 auto;
   padding: 40px 50px;
 }
 
-footer .container-col-float .col.float-left{
+.content-footer .col.float-left{
   width: calc(100% / 5);
 }
 
-footer .container-col-float .col.float-left h3{
+.content-footer h3{
+  font-size: 1.2rem;
   color: white;
   padding-bottom: 20px;
 }
 
-footer .container-col-float .col.float-left ul li a{
+.content-footer ul li a{
   color: white;
   font-size: 13px;
   line-height: 25px;
 }
 
-footer .language{
-  width: 85%;
-  margin: 0 auto;
-  padding: 40px 50px;
-}
 
-footer .language .false-hr{
+.content-footer .false-hr{
   width: 100px;
   border-bottom: 1px solid #D2D1D5;
   margin-bottom: 40px;
 }
 
-footer .language i{
+.content-footer i, .content-footer span{
   color: #99989A;
   font-size: 13px;
-}
-
-footer .language span{
-  color: #99989A;
-  font-size: 13px;
+  cursor: pointer;
 }
