@@ -405,13 +405,47 @@ main #sponsor{
 
 #faq p{
   font-weight: bold;
-  padding-right: 50px;
+  width: 90%;
 }
 
 #faq i{
   position: absolute;
   top: 30px;
   right: 30px;
+}
+
+
+#faq .angle i:last-child{
+  display: none;
+}
+
+#faq .question-row:hover .angle i:last-child{
+  display: block;
+}
+
+#faq .question-row:hover .angle i:first-child{
+  display: none;
+}
+
+#faq .subp{
+  display: none;
+  
+  padding: 20px 0;
+}
+
+#faq .subp p{
+  color: #647380;
+  font-weight:lighter;
+  width: 80%;
+}
+
+#faq .subp p a{
+  color: #647380;
+  text-decoration: underline;
+}
+
+#faq .question-row:hover .subp{
+  display: block;
 }
 /* /FAQ */
 
@@ -449,6 +483,9 @@ footer{
   line-height: 25px;
 }
 
+.content-footer ul li:hover a{
+  text-decoration: underline;
+}
 
 .content-footer .false-hr{
   width: 100px;
