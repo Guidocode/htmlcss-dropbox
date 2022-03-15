@@ -31,9 +31,6 @@
 }
 
 
-.logo img{
-  vertical-align: middle;
-}
 
 .btn{
   display: inline-block;
@@ -57,8 +54,8 @@
 }
 
 .btn:hover{
-  filter: opacity(.9);
-  box-shadow: 0 2px 3px black
+  filter: opacity(.8);
+  box-shadow: 0 2px 2px black;
 }
 
 .underline{
@@ -75,6 +72,12 @@
   border-bottom: 1px solid #D2D1D5;
   padding-top: 30px;
 }
+
+
+/* submenu */
+
+
+
 
 
 /* DEBUG */
