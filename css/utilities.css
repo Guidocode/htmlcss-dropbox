@@ -1,3 +1,4 @@
+/* GENERAL  */
 .container{
   width: 70%;
   /* max-width: 1180px; */
@@ -22,16 +23,24 @@
   text-align: center;
 }
 
+.underline{
+  text-decoration: underline;
+}
 
+
+
+/* WIDTH %  */
 .w60{
   width: 60%;
 }
 .w40{
   width: 40%;
 }
+/* /WIDTH %  */
 
 
 
+/* BOTTONI  */
 .btn{
   display: inline-block;
   background-color: #0161FF;
@@ -57,11 +66,11 @@
   filter: opacity(.8);
   box-shadow: 0 2px 2px black;
 }
+/* /BOTTONI  */
 
-.underline{
-  text-decoration: underline;
-}
 
+
+/* FALSE HR  */
 .small-false-hr{
   border-bottom: 1px solid #D2D1D5;
   width: 45px;
@@ -72,6 +81,8 @@
   border-bottom: 1px solid #D2D1D5;
   padding-top: 30px;
 }
+/* /FALSE HR  */
+
 
 
 /* submenu */

@@ -128,7 +128,9 @@ main section .col.col-center{
 }
 
 
+
 /* PIANI  */
+
 
 /* False checkbox  */
 #piani .container-false-checkbox{
@@ -214,6 +216,16 @@ main section .col.col-center{
 #piani .content-col-right a.btn{
   padding: 7px 70px;
 }
+
+/* trick per vedere bene ancoraggio */
+#ufficio-vendite::before{
+  content: '';
+  display: block;
+  height: 200px;
+  margin: -200px 0 0;
+}
+/* /trick per vedere bene ancoraggio */
+
 /* /Colonne piani  */
 /* /PIANI  */
 
@@ -336,6 +348,7 @@ main #sponsor{
 }
 /* /bg-color box sponsor  */
 
+
 #sponsor .col.col-center-sponsor{
   width: calc(100% - 30vw - 30vw);
 }
@@ -354,7 +367,6 @@ main #sponsor{
 #sponsor .col-center-sponsor .sponsor img{
   width: 100%;
 }
-
 
 #sponsor .col-center-sponsor p{
   padding: 30px 0;
@@ -441,7 +453,6 @@ main #sponsor{
 
 #faq .subp p a{
   color: #647380;
-  text-decoration: underline;
 }
 
 #faq .question-row:hover .subp{
